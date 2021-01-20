@@ -1,0 +1,21 @@
+{
+    "customerWallets": {
+      "data": [
+        {
+          "id": "5da9ea674234635bdff45c02",
+          "franchisee": "João",
+          "address": "rua - bairro",
+          "cep": "5639000",
+          "city": "Petrolina",
+          "state": "Pernambuco",
+          "region": "Nordeste",
+          "cnpj": "55.787.000/0001-99",
+          "qtt_employees": "10",
+          "email": "email@email.com",
+          "phone": "(32)11111111",
+          "tax": "3000",
+          "annual_profit": [{"2019": "500000", "2020": "200000"}]
+        }
+      ]
+    }
+  }

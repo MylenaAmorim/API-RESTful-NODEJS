@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "d58de705-5837-4a79-9527-e4503be6f37d",
+		"name": "Doc Api Restful - Franquias de loja",
+		"description": "Documentação para utilização da Doc Api Restful - Franquias de loja.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Dados",
+			"item": [
+				{
+					"name": "Listar os Dados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/customer-wallets",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"customer-wallets"
+							]
+						},
+						"description": "Exibe uma lita com todas as informações de todas as coleções do banco de dados."
+					},
+					"response": []
+				},
+				{
+					"name": "Novo Cadastro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"franchisee\": \"Maria Amelia\",\r\n    \"address\": \"rua - bairro\",\r\n    \"cep\": \"5639111\",\r\n    \"city\": \"Paulista\",\r\n    \"state\": \"Pernambuco\",\r\n    \"region\": \"Nordeste\",\r\n    \"cnpj\": \"55.787.000/0001-99\",\r\n    \"qtt_employees\": \"18\",\r\n    \"email\": \"email@email.com\",\r\n    \"phone\": \"(32)11111111\",\r\n    \"tax\": \"2000\",\r\n    \"annual_profit\": [{\r\n                        \"2019\": \"300000\",\r\n                        \"2020\": \"200000\"\r\n    }]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/customer-wallets",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"customer-wallets"
+							]
+						},
+						"description": "Cadastra um novo franqueador no sistema."
+					},
+					"response": []
+				},
+				{
+					"name": "Excluir franqueado",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/customer-wallets/78a75d67-5499-4a3e-a5c9-d6871d2af912",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"customer-wallets",
+								"78a75d67-5499-4a3e-a5c9-d6871d2af912"
+							]
+						},
+						"description": "Está requisição é responsável por excluir o cadastro do id indicado."
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Dados",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/customer-wallets/78a75d67-5499-4a3e-a5c9-d6871d2af912",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"customer-wallets",
+								"78a75d67-5499-4a3e-a5c9-d6871d2af912"
+							]
+						},
+						"description": "Está requisição é responsável por atualizar as informações do cadrastro."
+					},
+					"response": []
+				}
+			],
+			"description": "Está pasta representa os objetos do tipo Dados na Doc Api Restful - Franquias de loja.",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
