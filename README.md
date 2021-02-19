@@ -3,7 +3,7 @@
 ## API RESTful com NodeJS e Express
 
 ### -Descrição:
-  API RESTful desenvolvido em Node.js, JavaScript e o framework Express, juntamanete com outras tecnologias com a lógica CRUD onde os dados podem ser inseridos, consultados, atualizados e deletados.
+  API RESTful desenvolvido em Node.js, JavaScript e o framework Express, juntamente com outras tecnologias com a lógica CRUD onde os dados podem ser inseridos, consultados, atualizados e deletados.
 Obs: Foi utilizado o exemplo de sistema de franquias de lojas para o desenvolvimento.
 
 ### -Tecnologias utilizadas
