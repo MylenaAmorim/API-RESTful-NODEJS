@@ -13,7 +13,6 @@ Obs: Foi utilizado o exemplo de sistema de franquias de lojas para o desenvolvim
 ###### • JSON
 ###### • Nodemon
 ###### • Body Parser
-###### • Consign
 
 ### -Documentação e testes
   A documentação e os testes foram gerados a partir da ferramenta Postman.
